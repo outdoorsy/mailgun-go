@@ -3,10 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/mailgun/mailgun-go/v3"
-	"github.com/mailgun/mailgun-go/v3/events"
 	"os"
 	"time"
+
+	"github.com/mailgun/mailgun-go"
+	"github.com/mailgun/mailgun-go/events"
 )
 
 func AddBounce(domain, apiKey string) error {

@@ -5,7 +5,7 @@
 
 Go library for interacting with the [Mailgun](https://mailgun.com/) [API](https://documentation.mailgun.com/api_reference.html).
 
-**NOTE: Backward compatibility has been broken with the v3.0 release which includes versioned paths required by 1.11 
+**NOTE: Backward compatibility has been broken with the v3.0 release which includes versioned paths required by 1.11
 go modules (See [Releasing Modules](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher)).
  Pin your dependencies to the v1.1.1 or v2.0 tag if you are not ready for v3.0**
 
@@ -19,7 +19,7 @@ import (
     "log"
     "time"
 
-    "github.com/mailgun/mailgun-go/v3"
+    "github.com/mailgun/mailgun-go"
 )
 
 // Your available domain names can be found here:
@@ -66,8 +66,8 @@ import (
     "fmt"
     "time"
 
-    "github.com/mailgun/mailgun-go/v3"
-    "github.com/mailgun/mailgun-go/v3/events"
+    "github.com/mailgun/mailgun-go"
+    "github.com/mailgun/mailgun-go/events"
 )
 
 func main() {
@@ -122,7 +122,7 @@ import (
     "context"
     "time"
 
-    "github.com/mailgun/mailgun-go/v3"
+    "github.com/mailgun/mailgun-go"
 )
 
 func main() {
@@ -163,7 +163,7 @@ import (
     "log"
     "time"
 
-    "github.com/mailgun/mailgun-go/v3"
+    "github.com/mailgun/mailgun-go"
 )
 
 // If your plan does not include email validations but you have an account,
@@ -200,8 +200,8 @@ import (
     "os"
     "time"
 
-    "github.com/mailgun/mailgun-go/v3"
-    "github.com/mailgun/mailgun-go/v3/events"
+    "github.com/mailgun/mailgun-go"
+    "github.com/mailgun/mailgun-go/events"
 )
 
 func main() {
@@ -265,7 +265,7 @@ and click on the "Go" button at the top of the page.
 If you are using [golang modules](https://github.com/golang/go/wiki/Modules) make sure you
 include the `/v3` at the end of your import paths
 ```bash
-$ go get github.com/mailgun/mailgun-go/v3
+$ go get github.com/mailgun/mailgun-go
 ```
 
 If you are **not** using golang modules, you can drop the `/v3` at the end of the import path.
