@@ -1,7 +1,7 @@
 # Mailgun with Go
 
-[![GoDoc](https://godoc.org/github.com/mailgun/mailgun-go?status.svg)](https://godoc.org/github.com/mailgun/mailgun-go)
-[![Build Status](https://img.shields.io/travis/mailgun/mailgun-go/master.svg)](https://travis-ci.org/mailgun/mailgun-go)
+[![GoDoc](https://godoc.org/github.com/outdoorsy/mailgun-go?status.svg)](https://godoc.org/github.com/outdoorsy/mailgun-go)
+[![Build Status](https://img.shields.io/travis/outdoorsy/mailgun-go/master.svg)](https://travis-ci.org/outdoorsy/mailgun-go)
 
 Go library for interacting with the [Mailgun](https://mailgun.com/) [API](https://documentation.mailgun.com/api_reference.html).
 
@@ -19,7 +19,7 @@ import (
     "log"
     "time"
 
-    "github.com/mailgun/mailgun-go"
+    "github.com/outdoorsy/mailgun-go"
 )
 
 // Your available domain names can be found here:
@@ -66,8 +66,8 @@ import (
     "fmt"
     "time"
 
-    "github.com/mailgun/mailgun-go"
-    "github.com/mailgun/mailgun-go/events"
+    "github.com/outdoorsy/mailgun-go"
+    "github.com/outdoorsy/mailgun-go/events"
 )
 
 func main() {
@@ -122,7 +122,7 @@ import (
     "context"
     "time"
 
-    "github.com/mailgun/mailgun-go"
+    "github.com/outdoorsy/mailgun-go"
 )
 
 func main() {
@@ -163,7 +163,7 @@ import (
     "log"
     "time"
 
-    "github.com/mailgun/mailgun-go"
+    "github.com/outdoorsy/mailgun-go"
 )
 
 // If your plan does not include email validations but you have an account,
@@ -200,8 +200,8 @@ import (
     "os"
     "time"
 
-    "github.com/mailgun/mailgun-go"
-    "github.com/mailgun/mailgun-go/events"
+    "github.com/outdoorsy/mailgun-go"
+    "github.com/outdoorsy/mailgun-go/events"
 )
 
 func main() {
@@ -265,14 +265,14 @@ and click on the "Go" button at the top of the page.
 If you are using [golang modules](https://github.com/golang/go/wiki/Modules) make sure you
 include the `/v3` at the end of your import paths
 ```bash
-$ go get github.com/mailgun/mailgun-go
+$ go get github.com/outdoorsy/mailgun-go
 ```
 
 If you are **not** using golang modules, you can drop the `/v3` at the end of the import path.
 As long as you are using the latest 1.10 or 1.11 golang release, import paths that end in `/v3`
 in your code should work fine even if you do not have golang modules enabled for your project.
 ```bash
-$ go get github.com/mailgun/mailgun-go
+$ go get github.com/outdoorsy/mailgun-go
 ```
 
 ## Testing

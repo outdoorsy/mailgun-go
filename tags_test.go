@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/facebookgo/ensure"
-	"github.com/mailgun/mailgun-go"
+	"github.com/outdoorsy/mailgun-go"
 	"github.com/pkg/errors"
 )
 

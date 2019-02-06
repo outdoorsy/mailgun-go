@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mailgun/mailgun-go/events"
 	"github.com/mailru/easyjson"
+	"github.com/outdoorsy/mailgun-go/events"
 )
 
 // ListEventOptions{} modifies the behavior of ListEvents()

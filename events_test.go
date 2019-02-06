@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/facebookgo/ensure"
-	"github.com/mailgun/mailgun-go"
-	"github.com/mailgun/mailgun-go/events"
+	"github.com/outdoorsy/mailgun-go"
+	"github.com/outdoorsy/mailgun-go/events"
 )
 
 func TestEventIteratorGetNext(t *testing.T) {

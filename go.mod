@@ -1,4 +1,4 @@
-module github.com/mailgun/mailgun-go
+module github.com/outdoorsy/mailgun-go
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -10,4 +10,4 @@ require (
 	github.com/pkg/errors v0.8.1
 )
 
-replace github.com/mailgun/mailgun-go/events => ./events
+replace github.com/outdoorsy/mailgun-go/events => ./events
